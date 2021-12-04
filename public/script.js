@@ -1,5 +1,3 @@
-const { json } = require("body-parser");
-
 const socket = io("/");
 
 var peer = new Peer(undefined, {
