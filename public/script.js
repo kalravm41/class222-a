@@ -107,7 +107,7 @@ $(function () {
         }
     });
 
-    $("invite_button").click(() => {
+    $("invite_button").click(function () {
         const to = prompt("Enter The Email Address Of Person Whom You Want To Invite: ");
         var data = {
             url: window.location.href,
